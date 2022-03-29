@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .lg-for-tr-p {
+            text-align: right;
+        }
+
+        .lg-for-tl-p {
+            text-align: left;
+        }
+
+        @media screen and (max-width: 610px) {
+            .lg {
+                display: none;
+            }
+
+            .lg-for-table {
+                width: 100%;
+            }
+
+            .lg-for-tr-p {
+                text-align: center;
+            }
+            .lg-for-tl-p {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body class="m-0 p-0 min-w-full bg-black" style="margin: 0; min-width: 100%; --tw-bg-opacity: 1; background-color: rgb(0 0 0 / var(--tw-bg-opacity)); padding: 0;">
+<div class="w-full" style="width: 100%; text-align: center;">
+    <div class="max-w-[600px]" style="max-width: 600px;">
+        <table class="border-0 border-collapse space-y-3 m-0 m-auto font-sans w-full max-w-[600px]" cellpadding="12px" cellspacing="0" align="center" style="margin: auto; width: 100%; max-width: 600px; border-collapse: collapse; border-width: 0px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';">
+            <tr>
+                <td>
+                    <table class="w-full rounded-3xl bg-gradient-to-r from-[#9104FF] to-[#2A3AC8] border-0 p-5" style="width: 100%; border-radius: 1.5rem; border-width: 0px; background-image: linear-gradient(to right, var(--tw-gradient-stops)); --tw-gradient-from: #9104FF; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(145 4 255 / 0)); --tw-gradient-to: #2A3AC8; padding: 20px;">
+                        <tbody>
+                        <tr>
+                            <td class="w-1/6 text-left" style="width: 16.666667%; text-align: left;">
+                                <p class="m-0" style="margin: 0;">
+                                    <img src="../img/logo_totem.webp" alt="logo" class="w-4" style="width: 16px;">
+                                </p>
+                            </td>
+                            <td class="w-5/6 text-right space-x-2" style="width: 83.333333%; text-align: right;">
+                                <a href="#" class="text-white text-sm font-medium font-inter no-underline" style="font-size: 14px; font-weight: 500; --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity)); -webkit-text-decoration-line: none; text-decoration-line: none;">Service</a>
+                                <a href="#" class="text-white text-sm font-medium font-inter no-underline" style="font-size: 14px; font-weight: 500; --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity)); -webkit-text-decoration-line: none; text-decoration-line: none; --tw-space-x-reverse: 0; margin-right: calc(8px * var(--tw-space-x-reverse)); margin-left: calc(8px * calc(1 - var(--tw-space-x-reverse)));">Support</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr style="--tw-space-y-reverse: 0; margin-top: calc(12px * calc(1 - var(--tw-space-y-reverse))); margin-bottom: calc(12px * var(--tw-space-y-reverse));">
+                <td>
+                    <table class="w-full rounded-3xl border-0 bg-[#1B1B1B] p-5" style="width: 100%; border-radius: 1.5rem; border-width: 0px; --tw-bg-opacity: 1; background-color: rgb(27 27 27 / var(--tw-bg-opacity)); padding: 20px;">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <img src="../img/report_logo.webp" alt="logo" class="w-32 mt-14" style="margin-top: 56px; width: 128px;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><h1 class="text-white text-2xl font-bold font-roboto" style="font-size: 24px; font-weight: 700; --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity));">WebTotem security report</h1></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="text-white font-bold font-roboto text-base" style="font-size: 16px; font-weight: 700; --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity));">Hi {{.username}},</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="text-white text-base font-roboto font-normal" style="font-size: 16px; font-weight: 400; --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity));">Here is your regular report for
+                                {{.site}}</h3></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="text-white font-bold text-sm font-inter rounded-md px-6 py-3 border-0 bg-gradient-to-r from-[#9104FF] to-[#2A3AC8]" style="border-radius: 0.375rem; border-width: 0px; background-image: linear-gradient(to right, var(--tw-gradient-stops)); --tw-gradient-from: #9104FF; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(145 4 255 / 0)); --tw-gradient-to: #2A3AC8; padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; font-size: 14px; font-weight: 700; --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity));">
+                                    DOWNLOAD
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p class="mt-20 text-white font-bold uppercase font-inter text-[10px]" style="margin-top: 80px; font-size: 10px; font-weight: 700; text-transform: uppercase; --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity));">we hope you enjoy
+                                exploring how we protect it!</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr style="--tw-space-y-reverse: 0; margin-top: calc(12px * calc(1 - var(--tw-space-y-reverse))); margin-bottom: calc(12px * var(--tw-space-y-reverse));">
+                <td>
+                    <table class="w-full rounded-3xl border-0 bg-[#1B1B1B] p-5" style="width: 100%; border-radius: 1.5rem; border-width: 0px; --tw-bg-opacity: 1; background-color: rgb(27 27 27 / var(--tw-bg-opacity)); padding: 20px;">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <table class="lg-for-table border-collapse space-y-3 border-0" style="border-collapse: collapse; border-width: 0px;">
+                                    <tbody class>
+                                    <tr>
+                                        <td class="lg-for-tl-p font-sans text-base font-normal text-gray-500" style="font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 16px; font-weight: 400; --tw-text-opacity: 1; color: rgb(107 114 128 / var(--tw-text-opacity));"><p>
+                                            Our
+                                            solutions</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table class="mx-auto lg-for-table" style="margin-left: auto; margin-right: auto;">
+                                                <tbody class="mx-auto" style="margin-left: auto; margin-right: auto;">
+                                                <tr class="w-1/2" style="width: 50%;">
+                                                    <td><img src="../img/logo_totem.webp" alt="logo" class="w-6 mr-2" style="margin-right: 8px; width: 24px;"></td>
+                                                    <td><img src="../img/signature_wt.webp" alt="logo" class="h-3" style="height: 12px;"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table class="lg-for-table">
+                                                <tbody>
+                                                <tr>
+                                                    <td class="w-1/2 lg-for-tl-p text-sm font-sans font-normal text-gray-500 min-w-[70px]" valign="top" style="width: 50%; min-width: 70px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 14px; font-weight: 400; --tw-text-opacity: 1; color: rgb(107 114 128 / var(--tw-text-opacity));"><p>Antivirus</p></td>
+                                                    <td class="w-1/2 lg-for-tr-p text-sm font-sans font-normal text-gray-500 min-w-[70px]" valign="top" style="width: 50%; min-width: 70px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 14px; font-weight: 400; --tw-text-opacity: 1; color: rgb(107 114 128 / var(--tw-text-opacity));"><p>Firewall</p></td>
+                                                </tr>
+                                                <tr class>
+                                                    <td class="w-1/2 lg-for-tl-p text-sm font-sans font-normal text-gray-500 min-w-[70px]" valign="top" style="width: 50%; min-width: 70px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 14px; font-weight: 400; --tw-text-opacity: 1; color: rgb(107 114 128 / var(--tw-text-opacity));"><p>Availability</p></td>
+                                                    <td class="w-1/2 lg-for-tl-p text-sm font-sans font-normal text-gray-500 min-w-[70px]" valign="top" style="width: 50%; min-width: 70px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 14px; font-weight: 400; --tw-text-opacity: 1; color: rgb(107 114 128 / var(--tw-text-opacity));"><p>Scoring</p></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button class="text-white font-normal font-sans text-sm rounded-2xl px-4 py-2 border-0 bg-gradient-to-r from-[#9104FF] to-[#2A3AC8]" style="border-radius: 1rem; border-width: 0px; background-image: linear-gradient(to right, var(--tw-gradient-stops)); --tw-gradient-from: #9104FF; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(145 4 255 / 0)); --tw-gradient-to: #2A3AC8; padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 14px; font-weight: 400; --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity));">
+                                                Go to WebTotem
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td class="lg w-full" style="width: 100%;">
+                                <img src="../img/macbook_screen.webp" alt="logo" class="w-56 absolute left-96 -bottom-44 " style="position: absolute; left: 384px; bottom: -176px; width: 224px;">
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr style="--tw-space-y-reverse: 0; margin-top: calc(12px * calc(1 - var(--tw-space-y-reverse))); margin-bottom: calc(12px * var(--tw-space-y-reverse));">
+                <td>
+                    <table class="w-full rounded-3xl bg-gradient-to-r from-[#9104FF] to-[#2A3AC8] border-0 p-5" style="width: 100%; border-radius: 1.5rem; border-width: 0px; background-image: linear-gradient(to right, var(--tw-gradient-stops)); --tw-gradient-from: #9104FF; --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(145 4 255 / 0)); --tw-gradient-to: #2A3AC8; padding: 20px;">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <p class="text-sm text-white font-normal font-sans" style="font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 14px; font-weight: 400; --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity));">© WebTotem ServerSec / 2022, All
+                                    Rights Reserved</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr style="--tw-space-y-reverse: 0; margin-top: calc(12px * calc(1 - var(--tw-space-y-reverse))); margin-bottom: calc(12px * var(--tw-space-y-reverse));">
+                <td>
+                    <table class="w-full" style="width: 100%;">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <p class="text-sm text-gray-500 font-normal font-sans" style="font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; font-size: 14px; font-weight: 400; --tw-text-opacity: 1; color: rgb(107 114 128 / var(--tw-text-opacity));">Unsubscribe</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>

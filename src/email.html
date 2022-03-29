@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .lg-for-tr-p {
+            text-align: right;
+        }
+
+        .lg-for-tl-p {
+            text-align: left;
+        }
+
+        @media screen and (max-width: 610px) {
+            .lg {
+                display: none;
+            }
+
+            .lg-for-table {
+                width: 100%;
+            }
+
+            .lg-for-tr-p {
+                text-align: center;
+            }
+            .lg-for-tl-p {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body class="m-0 p-0 min-w-full bg-black">
+<div class="w-full" style="text-align: center;">
+    <div class="max-w-[600px]">
+        <table class="border-0 border-collapse space-y-3 m-0 m-auto font-sans w-full max-w-[600px]" cellpadding="12px"
+               cellspacing="0"
+               align="center">
+            <tr>
+                <td>
+                    <table class="w-full rounded-3xl bg-gradient-to-r from-[#9104FF] to-[#2A3AC8] border-0 p-5">
+                        <tbody>
+                        <tr>
+                            <td class="w-1/6 text-left">
+                                <p class="m-0">
+                                    <img src="../img/logo_totem.webp" alt="logo" class="w-4">
+                                </p>
+                            </td>
+                            <td class="w-5/6 text-right space-x-2">
+                                <a href="#" class="text-white text-sm font-medium font-inter no-underline">Service</a>
+                                <a href="#" class="text-white text-sm font-medium font-inter no-underline">Support</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="w-full rounded-3xl border-0 bg-[#1B1B1B] p-5">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <img src="../img/report_logo.webp" alt="logo" class="w-32 mt-14">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><h1 class="text-white text-2xl font-bold font-roboto">WebTotem security report</h1></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="text-white font-bold font-roboto text-base">Hi {{.username}},</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h3 class="text-white text-base font-roboto font-normal">Here is your regular report for
+                                {{.site}}</h3></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="text-white font-bold text-sm font-inter rounded-md px-6 py-3 border-0 bg-gradient-to-r from-[#9104FF] to-[#2A3AC8]">
+                                    DOWNLOAD
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p class="mt-20 text-white font-bold uppercase font-inter text-[10px]">we hope you enjoy
+                                exploring how we protect it!</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="w-full rounded-3xl border-0 bg-[#1B1B1B] p-5">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <table class="lg-for-table border-collapse space-y-3 border-0">
+                                    <tbody class="">
+                                    <tr>
+                                        <td class="lg-for-tl-p font-sans text-base font-normal text-gray-500"><p>
+                                            Our
+                                            solutions</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table class="mx-auto lg-for-table">
+                                                <tbody class="mx-auto">
+                                                <tr class="w-1/2">
+                                                    <td><img src="../img/logo_totem.webp"
+                                                             alt="logo" class="w-6 mr-2"></td>
+                                                    <td><img src="../img/signature_wt.webp"
+                                                             alt="logo"
+                                                             class="h-3"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table class="lg-for-table">
+                                                <tbody>
+                                                <tr>
+                                                    <td class="w-1/2 lg-for-tl-p text-sm font-sans font-normal text-gray-500 min-w-[70px]"
+                                                        valign="top"><p>Antivirus</p></td>
+                                                    <td class="w-1/2 lg-for-tr-p text-sm font-sans font-normal text-gray-500 min-w-[70px]"
+                                                        valign="top"><p>Firewall</p></td>
+                                                </tr>
+                                                <tr class="">
+                                                    <td class="w-1/2 lg-for-tl-p text-sm font-sans font-normal text-gray-500 min-w-[70px]"
+                                                        valign="top"><p>Availability</p></td>
+                                                    <td class="w-1/2 lg-for-tl-p text-sm font-sans font-normal text-gray-500 min-w-[70px]"
+                                                        valign="top"><p>Scoring</p></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button class="text-white font-normal font-sans text-sm rounded-2xl px-4 py-2 border-0 bg-gradient-to-r from-[#9104FF] to-[#2A3AC8]">
+                                                Go to WebTotem
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td class="lg w-full">
+                                <img src="../img/macbook_screen.webp" alt="logo"
+                                     class="w-56 absolute left-96 -bottom-44 ">
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="w-full rounded-3xl bg-gradient-to-r from-[#9104FF] to-[#2A3AC8] border-0 p-5">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <p class="text-sm text-white font-normal font-sans">© WebTotem ServerSec / 2022, All
+                                    Rights Reserved</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="w-full">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <p class="text-sm text-gray-500 font-normal font-sans">Unsubscribe</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

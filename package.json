@@ -1,0 +1,17 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Magibator",
+  "scripts": {
+    "clean": "rm -rf dist/{*.css,*.js}",
+    "dev": "../../../../Downloads/mailwind-demo-main/node_modules/.bin/mailwind --input-html src/email.html --output-html dist/email-inlined.html --output-css dist/email.css"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "mailwind": "^2.0.3",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
