@@ -5,7 +5,7 @@
   "author": "Magibator",
   "scripts": {
     "clean": "rm -rf dist/{*.css,*.js}",
-    "dev": "../../../../Downloads/mailwind-demo-main/node_modules/.bin/mailwind --input-html src/email.html --output-html dist/email-inlined.html --output-css dist/email.css"
+    "dev": "../../../../Downloads/mailwind-demo-main/node_modules/.bin/mailwind --input-html src/email.html --output-html dist/email-inlined-report.html --output-css dist/email.css"
   },
   "devDependencies": {},
   "dependencies": {
